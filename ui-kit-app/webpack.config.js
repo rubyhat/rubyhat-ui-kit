@@ -19,6 +19,10 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.css/, // Ищем файлы с расширением
+        use: ["style-loader", "css-loader"], // Применяем лоадер
+      },
+      {
         test: /\.(ts|tsx)?$/, // Ищем файлы с расширением
         use: ["ts-loader"], // Применяем лоадер
         exclude: /node_modules/, // Исключаем модули

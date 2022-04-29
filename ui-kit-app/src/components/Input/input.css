@@ -1,0 +1,11 @@
+.rh-input {
+  border: 2px solid rebeccapurple;
+  padding: 0.5rem;
+  background-color: white;
+  font-size: 1rem;
+}
+
+.rh-input_big {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
