@@ -1,10 +1,10 @@
 {
   "name": "rubyhat-ui-kit",
-  "version": "1.0.0",
+  "version": "1.0.14",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
-    "publish": "webpack && npm version patch && npm pubslih",
+    "publish": "webpack && npm version patch && npm publish",
     "build": "webpack",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"

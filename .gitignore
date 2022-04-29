@@ -1,5 +1,2 @@
-/ui-kit-app/node_modules
-/ui-kit-test-app/node_modules
-/ui-kit-app/dist
-/ui-kit-test-app/build
-.idea
+node_modules
+dist
