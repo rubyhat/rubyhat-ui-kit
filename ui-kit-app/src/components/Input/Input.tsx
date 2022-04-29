@@ -2,23 +2,24 @@ import React, { FC } from "react";
 import "./input.css";
 
 export interface InputProps {
-  placeholder: string;
+  placeholder?: string;
   label: string;
-  color: string;
+  variant?: string;
   isBig?: boolean;
 }
 
 const Input: FC<InputProps> = ({
-  color,
   isBig,
   placeholder,
   label,
+  variant,
   ...props
 }) => {
   const rootClasses = ["rh-input"];
   if (isBig) rootClasses.push("rh-input_big");
+  if (variant) rootClasses.push(`rh-input_${variant}`);
   return (
-    <label>
+    <label className="rh-input-label">
       {label}
       <input
         type="text"

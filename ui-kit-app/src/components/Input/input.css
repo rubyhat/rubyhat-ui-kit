@@ -1,11 +1,36 @@
+.rh-input-label {
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
 .rh-input {
-  border: 2px solid rebeccapurple;
-  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 2px solid darkred;
+  padding: 0.35rem;
+  border-radius: 0.25rem;
   background-color: white;
   font-size: 1rem;
+  color: darkred;
 }
 
 .rh-input_big {
   font-size: 1.5rem;
   padding: 1rem;
+}
+
+.rh-input_primary {
+  border-color: darkred;
+}
+
+.rh-input_secondary {
+  border-color: lightcoral;
+  color: black;
+}
+
+.rh-input_success {
+  border-color: mediumseagreen;
+  color: black;
 }

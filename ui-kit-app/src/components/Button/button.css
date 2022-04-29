@@ -1,14 +1,32 @@
 .rh-button {
-  display: flex;
-  background-color: lightblue;
-  padding: 1rem 2rem;
+  display: block;
+  background-color: white;
+  color: darkred;
+  border: 2px solid darkred;
+  padding: 0.5rem 1rem;
   border-radius: 0.25rem;
   font-weight: 700;
-  border: none;
   font-size: 1rem;
 }
 
 .rh-button_big {
-  padding: 1.25rem 3rem;
-  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+}
+
+.rh-button_primary {
+  background-color: darkred;
+  color: white;
+}
+
+.rh-button_secondary {
+  background-color: lightcoral;
+  color: white;
+  border-color: lightcoral;
+}
+
+.rh-button_success {
+  background-color: mediumseagreen;
+  border-color: mediumseagreen;
+  color: white;
 }
